@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Reservasi_Foreigner,Chrome 148.0.7778.168,,,22-05-2026 11:13:55,22-05-2026 11:15:20,1m - 25.046s,PASSED
+,,,,,,,
+Test Cases/TC01 - Login,Chrome 148.0.7778.168,,,22-05-2026 11:13:55,22-05-2026 11:14:48,52.718s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.168,,,22-05-2026 11:13:56,22-05-2026 11:13:58,2.564s,PASSED
+"navigateToUrl(""https://app.nci.co.id/siora/"")",Chrome 148.0.7778.168,,,22-05-2026 11:13:58,22-05-2026 11:14:00,2.212s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:14:00,22-05-2026 11:14:05,5.047s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Login""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:05,22-05-2026 11:14:16,10.563s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:14:16,22-05-2026 11:14:21,5.013s,PASSED
+"setText(findTestObject(""Login_OR/Page_SIORA/input_enter your email""), ""herykuswanto03@gmail.com"")",Chrome 148.0.7778.168,,,22-05-2026 11:14:21,22-05-2026 11:14:32,10.971s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:14:32,22-05-2026 11:14:37,5.012s,PASSED
+"setEncryptedText(findTestObject(""Login_OR/Page_SIORA/input_""), ""qkk5RTyihrJfVaznnNKVlg=="")",Chrome 148.0.7778.168,,,22-05-2026 11:14:37,22-05-2026 11:14:38,0.500s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:14:38,22-05-2026 11:14:43,5.009s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Sign In""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:43,22-05-2026 11:14:43,0.371s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:14:43,22-05-2026 11:14:48,5.020s,PASSED
+,,,,,,,
+Test Cases/TC03 - Reservasi Foreigner,Chrome 148.0.7778.168,,,22-05-2026 11:14:48,22-05-2026 11:15:20,31.832s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/img_Komodo Reservation""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:48,22-05-2026 11:14:48,0.349s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:14:48,22-05-2026 11:14:50,2.022s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/div_w-6 h-6 rounded-lg border-2 flex items-cente""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:50,22-05-2026 11:14:51,0.336s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:14:51,22-05-2026 11:14:53,2.011s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Next""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:53,22-05-2026 11:14:53,0.339s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:14:53,22-05-2026 11:14:55,2.010s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/button_inline-flex items-center justify-center g""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:55,22-05-2026 11:14:55,0.343s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:14:55,22-05-2026 11:14:57,2.007s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Continue to Tickets""))",Chrome 148.0.7778.168,,,22-05-2026 11:14:57,22-05-2026 11:14:58,0.372s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:14:58,22-05-2026 11:15:00,2.008s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Komodo National Park""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:00,22-05-2026 11:15:00,0.363s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:00,22-05-2026 11:15:02,2.006s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Continue to Tickets""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:02,22-05-2026 11:15:03,0.369s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:03,22-05-2026 11:15:05,2.006s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/button_FOREIGNER1""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:05,22-05-2026 11:15:05,0.355s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:05,22-05-2026 11:15:07,2.005s,PASSED
+"setText(findTestObject(""Reservasi_OR/Page_SIORA/input_Alexander Thorne""), ""testing"")",Chrome 148.0.7778.168,,,22-05-2026 11:15:07,22-05-2026 11:15:08,0.714s,PASSED
+"setText(findTestObject(""Reservasi_OR/Page_SIORA/input_Passport or National ID""), ""0123456789"")",Chrome 148.0.7778.168,,,22-05-2026 11:15:08,22-05-2026 11:15:08,0.715s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/div_css-1xc3v61-indicatorContainer""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:08,22-05-2026 11:15:09,0.490s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/div_react-select-3-option-17""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:09,22-05-2026 11:15:09,0.588s,PASSED
+"setText(findTestObject(""Reservasi_OR/Page_SIORA/input_e.g. London""), ""testing"")",Chrome 148.0.7778.168,,,22-05-2026 11:15:09,22-05-2026 11:15:11,1.251s,PASSED
+"setText(findTestObject(""Reservasi_OR/Page_SIORA/input_44""), ""1412"")",Chrome 148.0.7778.168,,,22-05-2026 11:15:11,22-05-2026 11:15:11,0.680s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:11,22-05-2026 11:15:13,2.020s,PASSED
+"setText(findTestObject(""Reservasi_OR/Page_SIORA/input_7700 900000""), ""1412123"")",Chrome 148.0.7778.168,,,22-05-2026 11:15:13,22-05-2026 11:15:14,0.739s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Continue to Tickets""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:14,22-05-2026 11:15:15,0.380s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:15,22-05-2026 11:15:17,2.011s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/button_Confirm""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:17,22-05-2026 11:15:17,0.340s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Continue to Tickets""))",Chrome 148.0.7778.168,,,22-05-2026 11:15:17,22-05-2026 11:15:18,0.873s,PASSED
+delay(2),Chrome 148.0.7778.168,,,22-05-2026 11:15:18,22-05-2026 11:15:20,2.017s,PASSED

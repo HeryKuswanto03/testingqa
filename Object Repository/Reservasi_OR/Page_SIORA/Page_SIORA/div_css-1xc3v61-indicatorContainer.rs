@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_css-1xc3v61-indicatorContainer</name>
+   <tag></tag>
+   <elementGuidId>e67216a7-5a90-4449-b870-cb6ab6a6df61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.grid > div:nth-child(4) div div:nth-child(2) div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]/*[(name() = 'div') and (position() = 4)]//div//*[(name() = 'div') and (position() = 2)]//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e3cb3c1c-8469-460b-8ed5-7522a8310aae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1xc3v61-indicatorContainer</value>
+      <webElementGuid>c5523afb-92c9-4f55-8b3c-52206142daaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3a349992-4880-45c9-8137-cc25f6a2fce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-31d3f63834448950a3d11619bfe9bcc2</value>
+      <webElementGuid>fb662e11-9662-471b-926b-634ca64b0f46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]/*[(name() = 'div') and (position() = 4)]//div//*[(name() = 'div') and (position() = 2)]//div</value>
+      <webElementGuid>d73bd4bc-a32c-4207-bd9b-9b15a06264fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' grid ')]/*[(name() = 'div') and (position() = 4)]//div//*[(name() = 'div') and (position() = 2)]//div</value>
+      <webElementGuid>38675f54-c737-40c1-a98f-3e3c73afbc69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
