@@ -21,11 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.nci.co.id/siora/')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Login_OR/Page_SIORA/button_Login'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Login_OR/Page_SIORA/input_enter your email'), 'herykuswanto03@gmail.com')
 
+WebUI.delay(5)
+
 WebUI.setEncryptedText(findTestObject('Login_OR/Page_SIORA/input_'), 'qkk5RTyihrJfVaznnNKVlg==')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Login_OR/Page_SIORA/button_Sign In'))
+
+WebUI.delay(5)
 

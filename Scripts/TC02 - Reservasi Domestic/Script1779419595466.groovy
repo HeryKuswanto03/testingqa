@@ -19,31 +19,61 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/img_Komodo Reservation'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/div_w-6 h-6 rounded-lg border-2 flex items-cente'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Next'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_inline-flex items-center justify-center g'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Continue to Tickets'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Komodo National Park'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Continue to Tickets'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Reservasi_OR/Page_SIORA/input_Alexander Thorne'), 'testing')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Reservasi_OR/Page_SIORA/input_Passport or National ID'), '0123456789')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Reservasi_OR/Page_SIORA/input_e.g. London'), 'testing')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Reservasi_OR/Page_SIORA/input_44'), '124')
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Reservasi_OR/Page_SIORA/input_7700 900000'), '1241234')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Continue to Tickets'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Confirm'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Reservasi_OR/Page_SIORA/button_Continue to Tickets'))
+
+WebUI.delay(5)
 
