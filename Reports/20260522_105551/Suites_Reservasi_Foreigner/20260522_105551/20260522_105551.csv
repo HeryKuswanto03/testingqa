@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Reservasi_Foreigner,Chrome 148.0.7778.168,,,22-05-2026 10:55:57,22-05-2026 10:56:29,31.632s,FAILED
+,,,,,,,
+Test Cases/TC01 - Login,Chrome 148.0.7778.168,,,22-05-2026 10:55:58,22-05-2026 10:56:28,30.747s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.168,,,22-05-2026 10:55:58,22-05-2026 10:56:01,2.534s,PASSED
+"navigateToUrl(""https://app.nci.co.id/siora/"")",Chrome 148.0.7778.168,,,22-05-2026 10:56:01,22-05-2026 10:56:01,0.454s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 10:56:01,22-05-2026 10:56:06,5.067s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Login""))",Chrome 148.0.7778.168,,,22-05-2026 10:56:06,22-05-2026 10:56:07,0.592s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 10:56:07,22-05-2026 10:56:12,5.014s,PASSED
+"setText(findTestObject(""Login_OR/Page_SIORA/input_enter your email""), ""herykuswanto03@gmail.com"")",Chrome 148.0.7778.168,,,22-05-2026 10:56:12,22-05-2026 10:56:13,0.838s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 10:56:13,22-05-2026 10:56:18,5.006s,PASSED
+"setEncryptedText(findTestObject(""Login_OR/Page_SIORA/input_""), ""qkk5RTyihrJfVaznnNKVlg=="")",Chrome 148.0.7778.168,,,22-05-2026 10:56:18,22-05-2026 10:56:18,0.390s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 10:56:18,22-05-2026 10:56:23,5.014s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Sign In""))",Chrome 148.0.7778.168,,,22-05-2026 10:56:23,22-05-2026 10:56:23,0.351s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 10:56:23,22-05-2026 10:56:28,5.020s,PASSED
+,,,,,,,
+Test Cases/TC03 - Reservasi Foreigner,Chrome 148.0.7778.168,,,22-05-2026 10:56:28,22-05-2026 10:56:29,0.375s,FAILED
+"click(findTestObject(""Page_SIORA/img_Komodo Reservation""))",Chrome 148.0.7778.168,,,22-05-2026 10:56:28,22-05-2026 10:56:29,0.285s,FAILED

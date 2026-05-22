@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites_Reservasi_Foreigner,Chrome 148.0.7778.168,,,22-05-2026 11:00:14,22-05-2026 11:00:47,33.324s,FAILED
+,,,,,,,
+Test Cases/TC01 - Login,Chrome 148.0.7778.168,,,22-05-2026 11:00:14,22-05-2026 11:00:44,30.587s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.168,,,22-05-2026 11:00:14,22-05-2026 11:00:17,2.536s,PASSED
+"navigateToUrl(""https://app.nci.co.id/siora/"")",Chrome 148.0.7778.168,,,22-05-2026 11:00:17,22-05-2026 11:00:17,0.339s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:00:17,22-05-2026 11:00:22,5.055s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Login""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:22,22-05-2026 11:00:23,0.602s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:00:23,22-05-2026 11:00:28,5.015s,PASSED
+"setText(findTestObject(""Login_OR/Page_SIORA/input_enter your email""), ""herykuswanto03@gmail.com"")",Chrome 148.0.7778.168,,,22-05-2026 11:00:28,22-05-2026 11:00:29,0.821s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:00:29,22-05-2026 11:00:34,5.014s,PASSED
+"setEncryptedText(findTestObject(""Login_OR/Page_SIORA/input_""), ""qkk5RTyihrJfVaznnNKVlg=="")",Chrome 148.0.7778.168,,,22-05-2026 11:00:34,22-05-2026 11:00:34,0.395s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:00:34,22-05-2026 11:00:39,5.008s,PASSED
+"click(findTestObject(""Login_OR/Page_SIORA/button_Sign In""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:39,22-05-2026 11:00:39,0.355s,PASSED
+delay(5),Chrome 148.0.7778.168,,,22-05-2026 11:00:39,22-05-2026 11:00:44,5.015s,PASSED
+,,,,,,,
+Test Cases/TC03 - Reservasi Foreigner,Chrome 148.0.7778.168,,,22-05-2026 11:00:44,22-05-2026 11:00:47,2.250s,FAILED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/img_Komodo Reservation""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:44,22-05-2026 11:00:45,0.366s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/div_w-6 h-6 rounded-lg border-2 flex items-cente""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:45,22-05-2026 11:00:46,0.706s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/button_Next""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:46,22-05-2026 11:00:46,0.563s,PASSED
+"click(findTestObject(""Reservasi_OR/Page_SIORA/Page_SIORA/button_inline-flex items-center justify-center g""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:46,22-05-2026 11:00:46,0.346s,PASSED
+"click(findTestObject(""Page_SIORA/button_Continue to Tickets""))",Chrome 148.0.7778.168,,,22-05-2026 11:00:46,22-05-2026 11:00:47,0.175s,FAILED
