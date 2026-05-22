@@ -1,0 +1,47 @@
+2026-05-22 10:18:35.051 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\NCI-IS\.katalon\packages\KS-11.1.3\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-05-22 10:18:35.058 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\NCI-IS\git\testingqa\Include\config\log.properties
+2026-05-22 10:18:37.862 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Reservasi_Domestic
+2026-05-22 10:18:38.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Heri Kuswanto
+2026-05-22 10:18:38.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = testingqa
+2026-05-22 10:18:38.170 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = NCI-IS - DESKTOP-JISS8F0
+2026-05-22 10:18:38.171 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-05-22 10:18:38.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.64
+2026-05-22 10:18:38.175 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-22 10:18:38.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-22 10:18:38.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC01 - Login
+2026-05-22 10:18:39.190 DEBUG testcase.TC01 - Login                    - 1: openBrowser("")
+2026-05-22 10:18:39.791 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-22 10:18:39.925 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-22 10:18:45.539 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6baeb08d858c038c367d903954cefd43
+2026-05-22 10:18:45.542 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-22 10:18:45.543 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-22 10:18:45.547 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-22 10:18:45.566 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-22 10:18:45.692 DEBUG testcase.TC01 - Login                    - 2: navigateToUrl("https://app.nci.co.id/siora/")
+2026-05-22 10:18:46.723 DEBUG testcase.TC01 - Login                    - 3: click(findTestObject("Login_OR/Page_SIORA/button_Login"))
+2026-05-22 10:18:48.958 DEBUG testcase.TC01 - Login                    - 4: setText(findTestObject("Login_OR/Page_SIORA/input_enter your email"), "herykuswanto03@gmail.com")
+2026-05-22 10:18:50.748 DEBUG testcase.TC01 - Login                    - 5: setEncryptedText(findTestObject("Login_OR/Page_SIORA/input_"), "qkk5RTyihrJfVaznnNKVlg==")
+2026-05-22 10:18:51.701 DEBUG testcase.TC01 - Login                    - 6: click(findTestObject("Login_OR/Page_SIORA/button_Sign In"))
+2026-05-22 10:18:52.442 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC01 - Login
+2026-05-22 10:18:52.467 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-22 10:18:52.468 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC02 - Reservasi Domestic
+2026-05-22 10:18:52.785 DEBUG testcase.TC02 - Reservasi Domestic       - 1: click(findTestObject("Reservasi_OR/Page_SIORA/img_Komodo Reservation"))
+2026-05-22 10:18:53.746 DEBUG testcase.TC02 - Reservasi Domestic       - 2: click(findTestObject("Reservasi_OR/Page_SIORA/div_w-6 h-6 rounded-lg border-2 flex items-cente"))
+2026-05-22 10:18:54.913 DEBUG testcase.TC02 - Reservasi Domestic       - 3: click(findTestObject("Reservasi_OR/Page_SIORA/button_Next"))
+2026-05-22 10:18:55.568 DEBUG testcase.TC02 - Reservasi Domestic       - 4: click(findTestObject("Reservasi_OR/Page_SIORA/button_inline-flex items-center justify-center g"))
+2026-05-22 10:18:56.131 DEBUG testcase.TC02 - Reservasi Domestic       - 5: click(findTestObject("Reservasi_OR/Page_SIORA/button_Continue to Tickets"))
+2026-05-22 10:18:57.024 DEBUG testcase.TC02 - Reservasi Domestic       - 6: click(findTestObject("Reservasi_OR/Page_SIORA/button_Komodo National Park"))
+2026-05-22 10:18:57.693 DEBUG testcase.TC02 - Reservasi Domestic       - 7: click(findTestObject("Reservasi_OR/Page_SIORA/button_Continue to Tickets"))
+2026-05-22 10:18:58.807 DEBUG testcase.TC02 - Reservasi Domestic       - 8: setText(findTestObject("Reservasi_OR/Page_SIORA/input_Alexander Thorne"), "testing")
+2026-05-22 10:19:00.370 DEBUG testcase.TC02 - Reservasi Domestic       - 9: setText(findTestObject("Reservasi_OR/Page_SIORA/input_Passport or National ID"), "0123456789")
+2026-05-22 10:19:01.770 DEBUG testcase.TC02 - Reservasi Domestic       - 10: setText(findTestObject("Reservasi_OR/Page_SIORA/input_e.g. London"), "testing")
+2026-05-22 10:19:03.400 DEBUG testcase.TC02 - Reservasi Domestic       - 11: setText(findTestObject("Reservasi_OR/Page_SIORA/input_44"), "124")
+2026-05-22 10:19:04.864 DEBUG testcase.TC02 - Reservasi Domestic       - 12: setText(findTestObject("Reservasi_OR/Page_SIORA/input_7700 900000"), "1241234")
+2026-05-22 10:19:06.481 DEBUG testcase.TC02 - Reservasi Domestic       - 13: click(findTestObject("Reservasi_OR/Page_SIORA/button_Continue to Tickets"))
+2026-05-22 10:19:07.387 DEBUG testcase.TC02 - Reservasi Domestic       - 14: click(findTestObject("Reservasi_OR/Page_SIORA/button_Confirm"))
+2026-05-22 10:19:08.271 DEBUG testcase.TC02 - Reservasi Domestic       - 15: click(findTestObject("Reservasi_OR/Page_SIORA/button_Continue to Tickets"))
+2026-05-22 10:19:18.740 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-05-22 10:19:19.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC02 - Reservasi Domestic
+2026-05-22 10:19:19.695 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-22 10:19:19.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Reservasi_Domestic
+2026-05-22 10:19:19.697 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

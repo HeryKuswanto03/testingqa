@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_44</name>
+   <tag></tag>
+   <elementGuidId>bfba3c37-d7ce-40ac-b55f-ffc317486a39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-xl.selection\:text-primary-foreground.file\:text-foreground.selection\:bg-primary.file\:text-sm.md\:text-sm.font-bold.file\:inline-flex.file\:bg-transparent.file\:font-medium.text-center[value=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:text-primary-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:bg-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' md:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' file:inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' file:bg-transparent ') and contains(concat(' ', normalize-space(@class), ' '), ' file:font-medium ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (@value = '')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b928f0dd-3d45-452d-8057-4d5bb4bd4873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>820f783b-19c7-4edd-8ce7-34d6ebeb8f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file:text-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex min-w-0 border py-1 text-base transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-20 h-12 bg-slate-50 border-none rounded-xl px-4 font-bold text-slate-700 placeholder:text-slate-300 focus-visible:ring-1 focus-visible:ring-blue-500 text-center</value>
+      <webElementGuid>f8cc0599-9499-4bb3-9e92-bfa28caa1036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>+44</value>
+      <webElementGuid>75d302f0-3e65-4ccc-8588-32a2434947bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-35b546b57af458aadf3ba1c6dcdb543e</value>
+      <webElementGuid>c79e3eef-7d02-4722-a1e5-c6b989407bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:text-primary-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:bg-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' md:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' file:inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' file:bg-transparent ') and contains(concat(' ', normalize-space(@class), ' '), ' file:font-medium ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (@value = '')]</value>
+      <webElementGuid>243e6ef2-b1e2-4c58-b126-02f04793b280</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:text-primary-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-foreground ') and contains(concat(' ', normalize-space(@class), ' '), ' selection:bg-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' file:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' md:text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' file:inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' file:bg-transparent ') and contains(concat(' ', normalize-space(@class), ' '), ' file:font-medium ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (@value = '')]</value>
+      <webElementGuid>68195aa3-aec0-4793-aa71-3b35d98505ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '+44']</value>
+      <webElementGuid>cf02c169-5272-4a84-a8ad-cb77cd7bc204</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
